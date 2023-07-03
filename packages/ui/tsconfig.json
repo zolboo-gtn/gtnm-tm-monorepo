@@ -1,5 +1,11 @@
 {
   "extends": "tsconfig/react-library.json",
+  "compilerOptions": {
+    "paths": {
+      "@/components/*": ["./src/components/ui/*"],
+      "@/lib/*": ["./src/lib/*"]
+    }
+  },
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }

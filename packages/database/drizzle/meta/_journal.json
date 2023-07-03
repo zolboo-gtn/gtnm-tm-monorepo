@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1687859497351,
+      "tag": "0000_damp_beyonder",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1687875930788,
+      "tag": "0001_tired_harrier",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1687928948297,
+      "tag": "0002_goofy_randall",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1688010155084,
+      "tag": "0003_puzzling_makkari",
+      "breakpoints": true
+    }
+  ]
+}

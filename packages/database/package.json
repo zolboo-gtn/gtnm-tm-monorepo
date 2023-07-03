@@ -1,0 +1,30 @@
+{
+  "name": "database",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint \"src/**/*.ts\"",
+    "db:generate": "drizzle-kit generate:pg",
+    "db:push": "tsx src/migrate.ts",
+    "studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.27.0",
+    "postgres": "^3.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "drizzle-kit": "^0.19.3",
+    "eslint": "^8.44.0",
+    "pg": "^8.11.1",
+    "rimraf": "^5.0.1",
+    "tsconfig": "workspace:*",
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}

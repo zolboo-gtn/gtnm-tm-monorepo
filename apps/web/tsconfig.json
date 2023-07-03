@@ -1,6 +1,17 @@
 {
   "extends": "tsconfig/nextjs.json",
   "compilerOptions": {
+    "paths": {
+      "@/components/*": ["./src/components/*"],
+      "@/configs/*": ["./src/configs/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/i18n": ["./src/i18n/index.ts"],
+      "@/i18n/*": ["./src/i18n/*"],
+      "@/schemas/*": ["./src/schemas/*"],
+      "@/services/*": ["./src/services/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/types": ["./src/types.ts"]
+    },
     "plugins": [{ "name": "next" }]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

@@ -1,0 +1,11 @@
+{
+  "extends": "tsconfig/node16.json",
+  "compilerOptions": {
+    "paths": {
+      "@/contracts/*": ["./src/contracts/*"],
+      "@/schemas/*": ["./src/schemas/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "tsup.config.ts"],
+  "exclude": ["node_modules"]
+}

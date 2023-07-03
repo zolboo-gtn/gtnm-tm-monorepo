@@ -1,0 +1,44 @@
+{
+  "clientLoader": {
+    "description": "Please wait",
+    "title": "Loading"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "logout": "Logout"
+  },
+  "languages": {
+    "en": "English",
+    "mn": "Монгол хэл"
+  },
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login"
+  },
+  "logout": {
+    "title": "Confirmation",
+    "description": "Do you want to logout?"
+  },
+  "roles": {
+    "admin": "Admin",
+    "super_admin": "Super admin",
+    "user": "User"
+  },
+  "routes": {
+    "home": "Home",
+    "profile": "Profile",
+    "settings": "Settings",
+    "users": "Users"
+  },
+  "users": {
+    "email": "Email",
+    "id": "Id",
+    "name": "Name",
+    "role": "Role",
+    "cardId": "Card Id",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "deletedAt": "Deleted at"
+  }
+}

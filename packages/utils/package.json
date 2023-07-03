@@ -1,0 +1,12 @@
+{
+  "name": "utils",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "tailwind-merge": "^1.13.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

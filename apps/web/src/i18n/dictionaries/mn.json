@@ -1,0 +1,45 @@
+{
+  "clientLoader": {
+    "description": "Түр хүлээнэ үү",
+    "title": "Ачааллаж байна"
+  },
+  "common": {
+    "cancel": "Болих",
+    "logout": "Гарах",
+    "loading": "Ачааллаж байна"
+  },
+  "languages": {
+    "en": "English",
+    "mn": "Монгол хэл"
+  },
+  "login": {
+    "email": "Цахим хаяг",
+    "password": "Нууц үг",
+    "login": "Нэвтрэх"
+  },
+  "logout": {
+    "title": "Confirmation",
+    "description": "Системээс гарах уу?"
+  },
+  "roles": {
+    "admin": "Админ",
+    "super_admin": "Сүпер админ",
+    "user": "Энгийн хэрэглэгч"
+  },
+  "routes": {
+    "home": "Нүүр",
+    "profile": "Хэрэглэгчийн мэдээлэл",
+    "settings": "Тохиргоо",
+    "users": "Хэрэглэгчид"
+  },
+  "users": {
+    "email": "Цахим хаяг",
+    "id": "Дугаар",
+    "name": "Нэр",
+    "role": "Үүрэг",
+    "cardId": "Картын дугаар",
+    "createdAt": "Үүсгэсэн огноо",
+    "updatedAt": "Шинэчлэсэн огноо",
+    "deletedAt": "Устгасан огноо"
+  }
+}
